@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/src/board.hpp
+
+/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/src/cli.cpp
+iostream
+-
+cli.hpp
+/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/src/cli.hpp
+
+/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/src/cli.hpp
+iostream
+-
+board.hpp
+/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/src/board.hpp
+
