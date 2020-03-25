@@ -11,6 +11,7 @@ public:
     void newGameBoard();
     void playX(int y, int x);
     void playO(int y, int x);
+    bool placeAvailable(int y, int x);
     char ** getBoard();
     const char getBoardSize();
     bool XWin();

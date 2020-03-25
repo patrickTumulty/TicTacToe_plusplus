@@ -63,12 +63,14 @@ void CLI::clearScreen()
 
 void CLI::printTitle()
 {
-    std::cout << "X[ Tic Tac Toe ]O" << std::endl;
-    std::cout << "O   X |   |     X" << std::endl;
-    std::cout << "X  ---+---+---  O" << std::endl;
-    std::cout << "O     | X |     X" << std::endl;
-    std::cout << "X  ---+---+---  O" << std::endl;
-    std::cout << "O     |   | X   X" << std::endl;   
+    std::cout << "   [ Tic Tac Toe ]  " << std::endl;
+    std::cout << " O    X |   |      X" << std::endl;
+    std::cout << " X   ---+---+---   O" << std::endl;
+    std::cout << " O      | X |      X" << std::endl;
+    std::cout << " X   ---+---+---   O" << std::endl;
+    std::cout << " O      |   | X    X" << std::endl; 
+    std::cout << "   [ Press Enter ]  " << std::endl;
+    std::cin.get();  
 }
 
 void CLI::mainLoop()
@@ -85,8 +87,6 @@ void CLI::mainLoop()
         {
             this->printTitle();
             titleOnce = false;
-            std::cout << "\nPress [Enter] To Continue." << std::endl;
-            std::cin.get();
             this->clearScreen();
         }
         this->printBoard();

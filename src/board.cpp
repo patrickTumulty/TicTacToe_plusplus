@@ -37,6 +37,12 @@ void Board::playO(int y, int x)
     this->m_gameBoard[y-1][x-1] = 'O';
 }
 
+bool Board::placeAvailable(int y, int x)
+{
+    if (this->m_gameBoard[y][x] == ' ') return true;
+    else return false;
+}
+
 bool Board::XWin()
 {
     for (int i = 0; i < 3; i++)
