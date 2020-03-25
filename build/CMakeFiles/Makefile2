@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TicTacToe_PlusPlus.dir/all
+all: CMakeFiles/TicTacToe_plusplus.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TicTacToe_PlusPlus.dir/clean
+clean: CMakeFiles/TicTacToe_plusplus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TicTacToe_PlusPlus.dir
+# Target rules for target CMakeFiles/TicTacToe_plusplus.dir
 
 # All Build rule for target.
-CMakeFiles/TicTacToe_PlusPlus.dir/all:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/depend
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target TicTacToe_PlusPlus"
-.PHONY : CMakeFiles/TicTacToe_PlusPlus.dir/all
+CMakeFiles/TicTacToe_plusplus.dir/all:
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/depend
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target TicTacToe_plusplus"
+.PHONY : CMakeFiles/TicTacToe_plusplus.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TicTacToe_PlusPlus.dir/rule: cmake_check_build_system
+CMakeFiles/TicTacToe_plusplus.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TicTacToe_PlusPlus.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TicTacToe_plusplus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/TicTacToe_plusplus/build/CMakeFiles 0
-.PHONY : CMakeFiles/TicTacToe_PlusPlus.dir/rule
+.PHONY : CMakeFiles/TicTacToe_plusplus.dir/rule
 
 # Convenience name for target.
-TicTacToe_PlusPlus: CMakeFiles/TicTacToe_PlusPlus.dir/rule
+TicTacToe_plusplus: CMakeFiles/TicTacToe_plusplus.dir/rule
 
-.PHONY : TicTacToe_PlusPlus
+.PHONY : TicTacToe_plusplus
 
 # clean rule for target.
-CMakeFiles/TicTacToe_PlusPlus.dir/clean:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/clean
-.PHONY : CMakeFiles/TicTacToe_PlusPlus.dir/clean
+CMakeFiles/TicTacToe_plusplus.dir/clean:
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/clean
+.PHONY : CMakeFiles/TicTacToe_plusplus.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

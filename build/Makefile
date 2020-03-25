@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TicTacToe_PlusPlus
+# Target rules for targets named TicTacToe_plusplus
 
 # Build rule for target.
-TicTacToe_PlusPlus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TicTacToe_PlusPlus
-.PHONY : TicTacToe_PlusPlus
+TicTacToe_plusplus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TicTacToe_plusplus
+.PHONY : TicTacToe_plusplus
 
 # fast build rule for target.
-TicTacToe_PlusPlus/fast:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/build
-.PHONY : TicTacToe_PlusPlus/fast
+TicTacToe_plusplus/fast:
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/build
+.PHONY : TicTacToe_plusplus/fast
 
 src/board.o: src/board.cpp.o
 
@@ -129,7 +129,7 @@ src/board.o: src/board.cpp.o
 
 # target to build an object file
 src/board.cpp.o:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/board.cpp.o
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/board.cpp.o
 .PHONY : src/board.cpp.o
 
 src/board.i: src/board.cpp.i
@@ -138,7 +138,7 @@ src/board.i: src/board.cpp.i
 
 # target to preprocess a source file
 src/board.cpp.i:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/board.cpp.i
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/board.cpp.i
 .PHONY : src/board.cpp.i
 
 src/board.s: src/board.cpp.s
@@ -147,7 +147,7 @@ src/board.s: src/board.cpp.s
 
 # target to generate assembly for a file
 src/board.cpp.s:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/board.cpp.s
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/board.cpp.s
 .PHONY : src/board.cpp.s
 
 src/cli.o: src/cli.cpp.o
@@ -156,7 +156,7 @@ src/cli.o: src/cli.cpp.o
 
 # target to build an object file
 src/cli.cpp.o:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/cli.cpp.o
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/cli.cpp.o
 .PHONY : src/cli.cpp.o
 
 src/cli.i: src/cli.cpp.i
@@ -165,7 +165,7 @@ src/cli.i: src/cli.cpp.i
 
 # target to preprocess a source file
 src/cli.cpp.i:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/cli.cpp.i
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/cli.cpp.i
 .PHONY : src/cli.cpp.i
 
 src/cli.s: src/cli.cpp.s
@@ -174,7 +174,7 @@ src/cli.s: src/cli.cpp.s
 
 # target to generate assembly for a file
 src/cli.cpp.s:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/cli.cpp.s
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/cli.cpp.s
 .PHONY : src/cli.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -183,7 +183,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -192,7 +192,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -201,7 +201,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/player.o: src/player.cpp.o
@@ -210,7 +210,7 @@ src/player.o: src/player.cpp.o
 
 # target to build an object file
 src/player.cpp.o:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/player.cpp.o
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/player.cpp.o
 .PHONY : src/player.cpp.o
 
 src/player.i: src/player.cpp.i
@@ -219,7 +219,7 @@ src/player.i: src/player.cpp.i
 
 # target to preprocess a source file
 src/player.cpp.i:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/player.cpp.i
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/player.cpp.i
 .PHONY : src/player.cpp.i
 
 src/player.s: src/player.cpp.s
@@ -228,7 +228,7 @@ src/player.s: src/player.cpp.s
 
 # target to generate assembly for a file
 src/player.cpp.s:
-	$(MAKE) -f CMakeFiles/TicTacToe_PlusPlus.dir/build.make CMakeFiles/TicTacToe_PlusPlus.dir/src/player.cpp.s
+	$(MAKE) -f CMakeFiles/TicTacToe_plusplus.dir/build.make CMakeFiles/TicTacToe_plusplus.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
 # Help Target
@@ -239,7 +239,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TicTacToe_PlusPlus"
+	@echo "... TicTacToe_plusplus"
 	@echo "... src/board.o"
 	@echo "... src/board.i"
 	@echo "... src/board.s"
