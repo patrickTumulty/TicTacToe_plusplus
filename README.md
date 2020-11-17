@@ -1,6 +1,10 @@
 
 # Tic Tac Toe
 
+Current implementation allows two people to play against eachother. Each person takes turns entering in coordinates. The program will automatically toggle between `X` and `O`. 
+
+*TODO: Implement an AI to play against.*
+
 ```
    [ Tic Tac Toe ]  
  O    X |   |      X
